@@ -13,3 +13,7 @@
 body {
     background-color: cornsilk;
 }
+
+#map {
+    height: 500px;
+}
