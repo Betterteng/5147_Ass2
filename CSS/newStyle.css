@@ -20,7 +20,6 @@ select {
     border-radius: 2px;
     pointer-events: none;
 }
-
 .hgdp svg {
     width: 60px;
     height: 20px;
@@ -39,4 +38,5 @@ body {
 
 #map {
     height: 500px;
+    width: 600px;
 }
