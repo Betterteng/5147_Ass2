@@ -15,7 +15,7 @@ select {
     padding: 8px;
     background: rgba(0, 0, 0, 0.8);
     color: #fff;
-    font-weight: bold;
+    /*font-weight: bold;*/
     font: 11.5px sans-serif;
     border-radius: 2px;
     pointer-events: none;
@@ -39,4 +39,8 @@ body {
 #map {
     height: 500px;
     width: 600px;
+}
+
+b {
+    color: #D55E2D;
 }

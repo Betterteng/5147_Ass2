@@ -75,15 +75,18 @@ d3.csv("../DATA/test.csv", function (data) {
 
             // Add a circle...
             marker.append("svg:circle")
-                .attr("r", 5)
+                .attr("r", 7)
                 .attr("cx", padding)
                 .attr("cy", padding)
                 .on("mouseover", function (d) {
                     tooltip.transition()
                         .duration(200)
                         .style("opacity", .9);
-                    tooltip.html('Suburb: ' + d.value.Suburb + '<br>' + 'Address: ' + d.value.Address + '<br>' +
-                        'Number of rooms: ' + d.value.Rooms + '<br>' + 'Price: ' + d.value.Price)
+                    tooltip.html('<b>Suburb: </b>' + d.value.Suburb + '<br>' + '<b>Address: </b>' + d.value.Address + '<br>' +
+                        '<b>Number of rooms: </b>' + d.value.Rooms + '<br>' + '<b>Price: </b>' + d.value.Price + ' AUD' + '<br>' +
+                        '<b>Distance to CBD: </b>' + d.value.Distance + ' km' + '<br>' + '<b>Number of Carpots: </b>' +
+                        d.value.Car + '<br>' + '<b>Landsize: </b>' + d.value.Landsize + ' &#13217' + '<br>' + '<b>Building Size: </b>' +
+                        d.value.BuildingArea + ' &#13217')
                         .style("left", (d3.event.pageX + 5) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");
                 })
