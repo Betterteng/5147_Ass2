@@ -20,6 +20,7 @@ function resetTheStory() {
     document.getElementById("storyTellArea").innerHTML = "<br>" + originalText;
 }
 
+// Change the text in the Text Area...
 function changeText() {
     document.getElementById("storyTellArea").innerHTML = "<br>" + storyArray[storyIndex];
     if (storyIndex < storyArray.length - 1) {
