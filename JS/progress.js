@@ -5,9 +5,9 @@
 var storyIndex = 0;
 
 // Add an click listener to the progressBtn
-document.getElementById("progressBtn").addEventListener("click", tellTheStory);
+// document.getElementById("progressBtn").addEventListener("click", tellTheStory);
 // Add an click listener to the resetBtn
-document.getElementById("resetBtn").addEventListener("click", resetTheStory);
+// document.getElementById("resetBtn").addEventListener("click", resetTheStory);
 
 // Change the layout of the website...
 function tellTheStory() {
