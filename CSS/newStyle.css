@@ -38,9 +38,15 @@ body {
 
 #map {
     height: 500px;
-    width: 600px;
+    width: 70%;
 }
 
 b {
     color: #D55E2D;
+}
+
+div.half_width {
+    width: 70%;
+    text-align: justify;
+    text-justify: inter-word;
 }
