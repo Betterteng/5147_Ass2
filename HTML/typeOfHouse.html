@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <title>Betty :)</title>
     <link rel="stylesheet" href="../CSS/newStyle.css">
-    <!-- Google Map -->
-    <script type="text/javascript"
-            src="http://maps.google.com/maps/api/js?key=AIzaSyAUU0g9V29f8krqM7DmDO-wZzFonNe_eX8"></script>
+    <!-- Canvas JS -->
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     <!-- D3 -->
     <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?1.29.1"></script>
 </head>
@@ -20,8 +19,8 @@
     </div>
 </div>
 
-<!-- Map -->
-<div id="map"></div>
+<!-- Top 20 Suburbs -->
+<div id="chartContainer"></div>
 
 <!-- Story -->
 <div class="half_width" id="storyTellArea">
@@ -36,13 +35,12 @@
 <div>
     <br>
     <form action="http://google.com">
-        <input type="submit" value="CONTINUE"/>
+        <input type="submit" value="Continue"/>
     </form>
     <form action="index.html">
-        <input type="submit" value="START OVER"/>
+        <input type="submit" value="Start Over"/>
     </form>
 </div>
-
-<script src="../JS/plotAllProperties.js"></script>
+<script src="../JS/typeOfProperty.js"></script>
 </body>
 </html>

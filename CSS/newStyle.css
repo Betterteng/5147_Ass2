@@ -36,7 +36,7 @@ body {
     background-color: cornsilk;
 }
 
-#map, #top20Suburbs {
+#map, #top20Suburbs, #chartContainer {
     height: 500px;
     width: 70%;
 }
