@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Betty :)</title>
+    <link rel="stylesheet" href="../CSS/newStyle.css">
+    <!-- D3 -->
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?1.29.1"></script>
+</head>
+<body>
+<!-- Title & Subtitle -->
+<div>
+    <div>
+        <div>
+            <h1><b style="color: black">What do you need to consider when investing in a property?</b></h1>
+        </div>
+    </div>
+</div>
+
+<!-- Top 20 Suburbs -->
+<div id="chartContainer"></div>
+
+<!-- Story -->
+<div class="half_width" id="storyTellArea">
+    <br>
+    <h3>Welcome to my data visualization tour!</h3>
+    Hope you can get some knowledge and hints after the journey.
+    <br><br>Firstly, let's see what we've got. You can find a
+    pie chart above, which indicates the proportion of the type of properties in Melbourne. Our data set contains more
+    than 8,000 records and when the mouse is hovering over any slice of the pie chart, you will clearly see the relative
+    information about that type of property.
+    <br><br>From this pie chart we can draw the conclusion that, most of the people choose to invest in house & land.
+    The reason of this may be the great appreciation space. When you are ready, please click the CONTINUE button below.
+</div>
+<!-- Progress Button -->
+<div>
+    <br>
+    <form action="plotAllProperties.html">
+        <input type="submit" value="CONTINUE"/>
+    </form>
+</div>
+<script src="../JS/typeOfProperty.js"></script>
+</body>
+</html>

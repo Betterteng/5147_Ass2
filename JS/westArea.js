@@ -18,7 +18,7 @@ d3.csv("../DATA/AltonaNorth.csv", function (data) {
 
     // Create the Google map and then pin it to the specific div whose ID is #map...
     var map = new google.maps.Map(d3.select("#map").node(), {
-        zoom: 15,
+        zoom: 11,
         draggableCursor: 'crosshair',
         center: new google.maps.LatLng(mean_lat, mean_long),
         mapTypeId: google.maps.MapTypeId.TERRAIN,

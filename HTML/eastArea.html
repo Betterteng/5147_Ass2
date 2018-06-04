@@ -9,8 +9,6 @@
             src="http://maps.google.com/maps/api/js?key=AIzaSyAUU0g9V29f8krqM7DmDO-wZzFonNe_eX8"></script>
     <!-- D3 -->
     <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?1.29.1"></script>
-    <!-- Canvas JS -->
-    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </head>
 <body>
 
@@ -29,24 +27,27 @@
 <!-- Story -->
 <div class="half_width" id="storyTellArea">
     <br>
-    This area will display some text and this is the main part that we are going to tell stories and
-    display
-    valuable information in order achieve the goal of narrative visualisation. When a mouse is hovering
-    over
-    a node on the map, the text area will display its relative information based on the calculation.
+    <h4>Now let's move to the South Eastern Area - Ashburton</h4>
+    Here you can see some nodes located in the Ashburton. Each node represents a real property. The properties here are
+    about 11 km away from the CBD. From the colour you are able to find that the price in this area are higher than the
+    average price.
+    <br><br><b>Note: </b>Please zoom in until there are no over lapped nodes. More specific information will show up
+    when mouse hovering over the node.
 </div>
 <!-- Progress Button -->
 <div>
     <br>
-    <form action="cont01.html">
-        <input type="submit" value="Start the Story" />
+    <form action="westArea.html">
+        <input type="submit" value="CONTINUE"/>
+    </form>
+    <form action="initialPage.html">
+        <input type="submit" value="START OVER"/>
     </form>
 </div>
 
 <!-- Local Information JS file -->
 <script src="../JS/canvas.js"></script>
 <!-- Local Function JS file -->
-<script src="../JS/dataVisual.js"></script>
-<script src="../JS/top20Suburbs.js"></script>
+<script src="../JS/eastArea.js"></script>
 </body>
 </html>

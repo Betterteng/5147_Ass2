@@ -8,7 +8,7 @@ window.onload = function () {
         animationEnabled: true,
 
         title: {
-            text: "Top 20 Suburbs by Average Price"
+            text: "Relative Variable Importance"
         },
         axisX: {
             interval: 1
@@ -16,7 +16,7 @@ window.onload = function () {
         axisY2: {
             interlacedColor: "rgba(1,77,101,.2)",
             gridColor: "rgba(1,77,101,.1)",
-            title: "Price"
+            title: "Indicator"
         },
         data: [{
             type: "bar",

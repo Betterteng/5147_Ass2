@@ -26,19 +26,25 @@
 <!-- Story -->
 <div class="half_width" id="storyTellArea">
     <br>
-    This area will display some text and this is the main part that we are going to tell stories and
-    display
-    valuable information in order achieve the goal of narrative visualisation. When a mouse is hovering
-    over
-    a node on the map, the text area will display its relative information based on the calculation.
+    Here you can see a Melbourne metropolitan map combining with many scatters. Each scatter represents a real property
+    in Melbourne and they are pinned on the relative position according to the address. (Due to the large data set,
+    setting tooltip for each node will cause slow network and low performance of Google map service, so tooltip won't
+    show up when your mouse is hovering over the node.)
+    <br><br>You can also find that the scatters are divided into two groups: blue & Red.
+    <h5 style="color: blue">Blue represents the price of the property is higher than the average property price of
+        Melbourne.</h5>
+    <h5 style="color: red">Red represents the price of the property is lower than the average property price of
+        Melbourne.</h5>
+    So we can clearly know that the properties those located around the CBD, South and South Eastern area are more
+    expensive.
 </div>
 <!-- Progress Button -->
 <div>
     <br>
-    <form action="http://google.com">
+    <form action="top20Suburbs.html">
         <input type="submit" value="CONTINUE"/>
     </form>
-    <form action="index.html">
+    <form action="initialPage.html">
         <input type="submit" value="START OVER"/>
     </form>
 </div>

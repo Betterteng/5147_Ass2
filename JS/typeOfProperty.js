@@ -63,7 +63,7 @@ d3.csv("../DATA/melhousing_no_na.csv", function (data) {
             tooltip.transition()
                 .duration(200)
                 .style("opacity", .9);
-            tooltip.html('<b>Type: </b>' + d.data.label + '<br>' + '<b>Total number: </b>' + d.data.value)
+            tooltip.html('<b>Type: </b>' + d.data.label + '<br>' + '<b>Total records: </b>' + d.data.value)
                 .style("left", (d3.event.pageX + 5) + "px")
                 .style("top", (d3.event.pageY - 28) + "px");
         })
