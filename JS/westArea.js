@@ -5,7 +5,7 @@
 /**
  * Load the MelHousing data. When the data comes back, create an overlay.
  * */
-d3.csv("../DATA/Ashburton.csv", function (data) {
+d3.csv("../DATA/AltonaNorth.csv", function (data) {
 
     // Find the mean value of lat in order to determine the center of Google Map...
     var mean_lat = d3.mean(data, function (d) {
