@@ -4,7 +4,7 @@
 
 window.onload = function () {
 
-    var chart = new CanvasJS.Chart("top20Suburbs", {
+    var chart = new CanvasJS.Chart("relative", {
         animationEnabled: true,
 
         title: {
@@ -26,7 +26,7 @@ window.onload = function () {
             name: "suburbs",
             axisYType: "secondary",
             color: "#4E7AC7",
-            dataPoints: top20SuburbsData
+            dataPoints: relativeImportanceData
         }]
     });
     chart.render();
